@@ -49,8 +49,13 @@ with st.expander("Web App 🌐"):
 
 
 image =st.file_uploader("Upload a brain MRI scan image",type = ['jpg','png','jpeg'])
-st.image(image,caption='User Uploaded Image')
+
+#displaying the image
+st.image(image, caption = "Uploaded Image")
+
+#get prediction
 label=prediction("best_model_vgg16.h5",image)
+
 #displaying the predicted label
 st.subheader("Your have  **{}**".format(label))
 
