@@ -37,7 +37,7 @@ def prediction(modelname, sample_image, IMG_SIZE=IMAGE_SIZE):
 #Building the website
 
 #title of the web page
-st.title("Alzheimer's Classification based on MRI Scan")
+st.title("Alzheimer's Classification Based On MRI Scan")
 
 #setting the main picture
 st.image(IMAGE_URL, caption = "Dementia")
