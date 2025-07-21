@@ -1,3 +1,5 @@
+pypdf2
+streamlit-pdf-viewer
+langchain-openai==0.2.14
 streamlit
-numpy
-tensorflow
+authlib==1.4.1
